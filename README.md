@@ -1,4 +1,4 @@
-# 🛒 End-to-End E-Commerce Intelligence Analysis  
+# 🛒 End-to-End E-Commerce Intelligence Analysis
 ### SQL + Python + Interactive Web Dashboard + Data Modeling Project
 
 ---
@@ -38,11 +38,11 @@ The main goal was to determine:
 
 # 💡 Executive Story (Business Summary)
 
-After analyzing 100K+ transactions, I found:
+After analyzing **100K+ transactions**, I found:
 
-✅ Strong operational fulfillment (~97.8% successful deliveries)  
+✅ Strong operational fulfillment (**~97.8% successful deliveries**)  
 ✅ Growing order volume over time  
-⚠️ Only ~5–7% customers returned after their first month  
+⚠️ Only **~5–7% customers returned after their first month**
 
 This indicates that growth depended heavily on acquiring new customers rather than building customer loyalty.
 
@@ -83,7 +83,7 @@ Real-world public e-commerce dataset containing:
 
 Designed complete relational schema across 9 source tables.
 
-## Source Tables:
+## Source Tables
 
 - Customers
 - Orders
@@ -97,72 +97,79 @@ Designed complete relational schema across 9 source tables.
 
 ## Relationship Flow
 
-```text id="g7m0ta"
-Customers → Orders → Order Items → Products
-Orders → Payments
-Orders → Reviews
-Order Items → Sellers
-Customers / Sellers → Geolocation
-Products → Category Translation
-Why Important?
+- Customers → Orders  
+- Orders → Order Items  
+- Order Items → Products  
+- Orders → Payments  
+- Orders → Reviews  
+- Order Items → Sellers  
+- Customers / Sellers → Geolocation  
+- Products → Category Translation  
+
+## Why Important?
 
 This demonstrates:
 
-Relational database understanding
-Multi-table joins
-Transactional schema design
-SQL data modeling maturity
-ERD Preview
+- Relational database understanding
+- Multi-table joins
+- Transactional schema design
+- SQL data modeling maturity
 
+## ERD Preview
 
-<img width="1536" height="1024" alt="rawDataModel" src="https://github.com/user-attachments/assets/fea6fcdc-7e4b-4b4c-b177-4abd2f823031" />
+![Raw ERD](diagrams/raw_erd.png)
 
+---
 
-
-2️⃣ Analytics Star Schema
+# 2️⃣ Analytics Star Schema
 
 To simplify reporting and improve dashboard performance, raw data was transformed into an analytics-ready star schema.
 
-⭐ Fact Table
-FACT_ORDERS
+## ⭐ Fact Table
+
+### FACT_ORDERS
 
 Measures:
 
-Revenue
-Freight Cost
-Quantity
-Order Count
+- Revenue
+- Freight Cost
+- Quantity
+- Order Count
 
 Foreign Keys:
 
-customer_key
-product_key
-date_key
-location_key
-status_key
-📦 Dimension Tables
-DIM_CUSTOMER
-DIM_PRODUCT
-DIM_DATE
-DIM_LOCATION
-DIM_ORDER_STATUS
-Why Important?
+- customer_key
+- product_key
+- date_key
+- location_key
+- status_key
+
+## 📦 Dimension Tables
+
+- DIM_CUSTOMER
+- DIM_PRODUCT
+- DIM_DATE
+- DIM_LOCATION
+- DIM_ORDER_STATUS
+
+## Why Important?
 
 This demonstrates:
 
-Data warehouse thinking
-BI modeling skills
-Scalable reporting architecture
-Real company analytics workflows
-Star Schema Preview
+- Data warehouse thinking
+- BI modeling skills
+- Scalable reporting architecture
+- Real company analytics workflows
 
-## Analytics Star Schema
+## Star Schema Preview
 
-![Star Schema](diagrams/analyticsStarSchema.png)
+![Analytics Star Schema](diagrams/analyticsStarSchema.png)
 
+---
 
+# 🔄 Data Pipeline Flow
 
-🔄 Data Pipeline Flow
+```text
 CSV Raw Files
      ↓
 SQL Server Import
@@ -209,7 +216,7 @@ Cohort Retention Analysis
 
 Grouped customers by first purchase month and tracked future repeat activity.
 
-Key Result:
+Key Result
 
 Only ~5–7% customers returned after Month 1
 
@@ -217,13 +224,13 @@ Meaning:
 
 The business depended more on acquiring new users than retaining existing ones.
 
-Dashboard Solution
+🌐 Dashboard Solution
 
 Built an interactive web dashboard (.html) to present business KPIs and insights.
 
 The front-end UI layer was developed using AI-assisted generation and then customized using project requirements and analytics outputs.
 
-Dashboard Includes:
+Dashboard Includes
 Total Revenue KPI
 Total Orders KPI
 Avg Order Value KPI
@@ -243,11 +250,9 @@ Responsive design
 Rich UI styling
 Interactive filters
 Business presentation layer
-Dashboard Preview
+<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/2465df48-e750-4c0f-9619-f3353d511012" />
 
-(Add dashboard screenshot here)
 
-/dashboard/dashboard.png
 🔥 Key Insights Discovered
 1. Strong Operations
 
