@@ -120,10 +120,6 @@ ERD Preview
 
 
 2️⃣ Analytics Star Schema
-<img width="1830" height="874" alt="analyticsStarSchema" src="https://github.com/user-attachments/assets/8cc84936-fad7-4ec1-85df-0f401feb96e0" />
-
-
-
 
 To simplify reporting and improve dashboard performance, raw data was transformed into an analytics-ready star schema.
 
@@ -160,8 +156,9 @@ Scalable reporting architecture
 Real company analytics workflows
 Star Schema Preview
 
+## Analytics Star Schema
 
-<img width="1830" height="874" alt="analyticsStarSchema" src="https://github.com/user-attachments/assets/965a909a-2980-4d8c-9dc5-441e1ccdbb36" />
+![Analytics Star Schema](diagrams/analyticsStarSchema.png)
 
 
 
