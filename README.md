@@ -158,7 +158,7 @@ Star Schema Preview
 
 ## Analytics Star Schema
 
-![Analytics Star Schema](diagrams/analyticsStarSchema.png)
+![Star Schema](diagrams/analyticsStarSchema.png)
 
 
 
