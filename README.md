@@ -249,9 +249,7 @@ The dashboard uses:
 Responsive design
 Rich UI styling
 Interactive filters
-Business presentation layer
-<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/2465df48-e750-4c0f-9619-f3353d511012" />
-
+Business presentation layer.
 
 🔥 Key Insights Discovered
 1. Strong Operations
