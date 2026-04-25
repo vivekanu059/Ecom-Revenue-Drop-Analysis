@@ -115,7 +115,8 @@ SQL data modeling maturity
 ERD Preview
 
 
-/diagrams/raw_erd.png
+<img width="1536" height="1024" alt="rawDataModel" src="https://github.com/user-attachments/assets/fea6fcdc-7e4b-4b4c-b177-4abd2f823031" />
+
 
 
 2️⃣ Analytics Star Schema
@@ -159,7 +160,9 @@ Scalable reporting architecture
 Real company analytics workflows
 Star Schema Preview
 
-/diagrams/star_schema.png
+
+<img width="1830" height="874" alt="analyticsStarSchema" src="https://github.com/user-attachments/assets/965a909a-2980-4d8c-9dc5-441e1ccdbb36" />
+
 
 
 🔄 Data Pipeline Flow
