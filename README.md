@@ -114,10 +114,9 @@ Transactional schema design
 SQL data modeling maturity
 ERD Preview
 
-<img width="1536" height="1024" alt="rawDataModel" src="https://github.com/user-attachments/assets/133d8c0b-68f2-4c68-89d1-2d7b321a0022" />
-
 
 /diagrams/raw_erd.png
+
 
 2️⃣ Analytics Star Schema
 <img width="1830" height="874" alt="analyticsStarSchema" src="https://github.com/user-attachments/assets/8cc84936-fad7-4ec1-85df-0f401feb96e0" />
@@ -160,9 +159,9 @@ Scalable reporting architecture
 Real company analytics workflows
 Star Schema Preview
 
-(Add star_schema.png here)
-
 /diagrams/star_schema.png
+
+
 🔄 Data Pipeline Flow
 CSV Raw Files
      ↓
